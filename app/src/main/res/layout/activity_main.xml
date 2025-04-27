@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@android:color/white"
+        android:fitsSystemWindows="true">
+
+        <Button
+            android:id="@+id/btnLocationA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="START SCANNING - LOCATION A"
+            android:textAllCaps="true" />
+
+        <Button
+            android:id="@+id/btnLocationB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="START SCANNING - LOCATION B"
+            android:textAllCaps="true"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:id="@+id/btnLocationC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="START SCANNING - LOCATION C"
+            android:textAllCaps="true"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:id="@+id/statusText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Status will appear here"
+            android:textColor="#555555"
+            android:layout_marginTop="16dp"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/outputText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Results will appear here"
+            android:textSize="14sp"
+            android:textColor="#000000" />
+
+    </LinearLayout>
+</ScrollView>
